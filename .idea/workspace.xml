@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Added Harmonic Number Program">
-      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/PrimeFactor.java" afterDir="false" />
+    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Added Prime Factor Program">
+      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/QuotientRemainder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/HarmonicNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/HarmonicNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PrimeFactor">
-    <configuration name="FlipCoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.FlipCoin" />
-      <module name="RFPSample169" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuotientRemainder">
     <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.HarmonicNumber" />
       <module name="RFPSample169" />
@@ -110,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuotientRemainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.QuotientRemainder" />
+      <module name="RFPSample169" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuotientRemainder" />
+        <item itemvalue="Application.HarmonicNumber" />
         <item itemvalue="Application.PrimeFactor" />
         <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.HarmonicNumber" />
         <item itemvalue="Application.PowerOfTwo" />
-        <item itemvalue="Application.FlipCoin" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656910370381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Prime Factor Program">
+      <created>1656922041454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656922041454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +184,8 @@
     <MESSAGE value="Added Percentage Of Head and Tails" />
     <MESSAGE value="Added Power of two program" />
     <MESSAGE value="Added Harmonic Number Program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Harmonic Number Program" />
+    <MESSAGE value="Added Prime Factor Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Prime Factor Program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

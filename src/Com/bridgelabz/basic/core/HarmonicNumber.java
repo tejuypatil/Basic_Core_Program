@@ -8,8 +8,10 @@ public class HarmonicNumber {
         System.out.println("Enter the Harmonic Number:");
         int N=scanner.nextInt();
 
+        // HarmonicSum = 1/1 + 1/2 + 1/3 + ......... + 1/N
         double HarmonicSum= 0;
         for (double i = 1; i<=N ; i++) {
+            System.out.println("1/"+i+"  = "+(1 / i));
             HarmonicSum = HarmonicSum + 1 / i;
 
         }
