@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Added program to Compute Quotient and Remainder">
+    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Added program of Harmonic number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/HarmonicNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/HarmonicNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/FlipCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/FlipCoin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HarmonicNumber">
+  <component name="RunManager" selected="Application.FlipCoin">
+    <configuration name="FlipCoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.FlipCoin" />
+      <module name="RFPSample169" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.HarmonicNumber" />
       <module name="RFPSample169" />
@@ -60,19 +73,6 @@
     </configuration>
     <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.LeapYear" />
-      <module name="RFPSample169" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.PowerOfTwo" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlipCoin" />
         <item itemvalue="Application.HarmonicNumber" />
         <item itemvalue="Application.QuotientRemainder" />
         <item itemvalue="Application.PrimeFactor" />
         <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.PowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656930834879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added program of Harmonic number">
+      <created>1656931923617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656931923617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +199,8 @@
     <MESSAGE value="Added Harmonic Number Program" />
     <MESSAGE value="Added Prime Factor Program" />
     <MESSAGE value="Added program to Compute Quotient and Remainder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added program to Compute Quotient and Remainder" />
+    <MESSAGE value="Added program of Harmonic number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added program of Harmonic number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

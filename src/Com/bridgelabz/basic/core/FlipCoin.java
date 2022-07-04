@@ -6,21 +6,19 @@ public class FlipCoin {
     public static void main(String[] args) {
         int heads = 0;
         int tails = 0;
-        //double random =0.0;
-        //int count=1;
-        int NumberOfTrails = 4;
-        {
-            for (int i = 0; i < NumberOfTrails; i++) {
+        int NumberOfTrails = 200;
 
-                if (Math.random() < 0.5) {
-                    System.out.println("Head");
-                    heads++;
-                } else {
-                    System.out.println("Tail");
-                    tails++;
-                }
+        for (int i = 0; i < NumberOfTrails; i++) {
+
+            if (Math.random() < 0.5) {
+                System.out.println("Head");
+                heads++;
+            } else {
+                System.out.println("Tail");
+                tails++;
             }
         }
+
 
         System.out.println("Number of count Head: " + heads);
         System.out.println("Number of count Tails: " + tails);
