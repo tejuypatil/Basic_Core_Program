@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Added Percentage Of Head and Tails">
-      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/PowerOfTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/PowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/PowerOfTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LeapYear">
+  <component name="RunManager" selected="Application.PowerOfTwo">
     <configuration name="Com.bridgelabz.basics.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basics.MainClass" />
       <module name="RFPSample169" />
@@ -98,8 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.PowerOfTwo" />
+      <module name="RFPSample169" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerOfTwo" />
         <item itemvalue="Application.LeapYear" />
         <item itemvalue="Application.FlipCoin" />
         <item itemvalue="Application.Com.bridgelabz.basics.MainClass" />
