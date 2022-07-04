@@ -3,23 +3,18 @@ package Com.bridgelabz.basic.core;
 import java.util.Scanner;
 
 public class LeapYear {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
+        System.out.println("Enter the year :");
+        Scanner s= new Scanner(System.in);
+        int year= s.nextInt();
 
-        int year = 2022;
-            if (year % 400 == 0) {
-                System.out.println(year + " is a leap year.");
-            } else if (year % 100 == 0) {
-                System.out.println(year + " is not a leap year.");
-            } else if (year % 4 == 0) {
-                System.out.println(year + " is a leap year.");
-            } else {
-                System.out.println(year + " is not a leap year.");
-            }
-
-            //Scanner s = new Scanner(System.in); // Create a Scanner object
-
+        if (year % 4 == 0) {
+            System.out.println(year + " is a leap year.");
+        } else {
+            System.out.println(year + " is not a leap year.");
         }
 
     }
+
+}
 
