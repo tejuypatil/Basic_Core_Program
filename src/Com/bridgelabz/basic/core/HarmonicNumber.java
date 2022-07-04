@@ -11,10 +11,20 @@ public class HarmonicNumber {
         // HarmonicSum = 1/1 + 1/2 + 1/3 + ......... + 1/N
         double HarmonicSum= 0;
         for (double i = 1; i<=N ; i++) {
-            System.out.println("1/"+i+"  = "+(1 / i));
+
+            if (i == N )
+            {
+                System.out.println("1/"+(int)i+" ");
+            }
+            else
+            {
+                System.out.print("1/"+(int)i+" + ");
+            }
+
             HarmonicSum = HarmonicSum + 1 / i;
 
         }
+
         System.out.println("Harmonic Sum :" +HarmonicSum);
 
     }
