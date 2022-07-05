@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Corrected leap year logic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/core/LeapYear.java" afterDir="false" />
-    </list>
+    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Created program to find windchill" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +11,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="core" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,23 +32,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/teju/java/Class_Assignment/Basic_Core_Program",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
-  <component name="RunManager" selected="Application.LeapYear">
-    <configuration name="FlipCoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.FlipCoin" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Com.bridgelabz.basic.functional" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Com.bridgelabz.basic.functional" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Quadratic">
+    <configuration name="Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.functional.Distance" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="PATTERN" value="Com.bridgelabz.basic.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.HarmonicNumber" />
+    <configuration name="PatternProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basics.PatternProgram" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="PATTERN" value="Com.bridgelabz.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.LeapYear" />
+    <configuration name="Quadratic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.functional.Quadratic" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="PATTERN" value="Com.bridgelabz.basic.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.PrimeFactor" />
+    <configuration name="SumOfInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.functional.SumOfInt" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="PATTERN" value="Com.bridgelabz.basic.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuotientRemainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.QuotientRemainder" />
+    <configuration name="WindChill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.functional.WindChill" />
       <module name="RFPSample169" />
+      <option name="PROGRAM_PARAMETERS" value="27 50" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="PATTERN" value="Com.bridgelabz.basic.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.FlipCoin" />
-        <item itemvalue="Application.HarmonicNumber" />
-        <item itemvalue="Application.QuotientRemainder" />
-        <item itemvalue="Application.PrimeFactor" />
+        <item itemvalue="Application.Quadratic" />
+        <item itemvalue="Application.Distance" />
+        <item itemvalue="Application.WindChill" />
+        <item itemvalue="Application.PatternProgram" />
+        <item itemvalue="Application.SumOfInt" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +203,49 @@
       <option name="project" value="LOCAL" />
       <updated>1656932924647</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added program to print 2D Array">
+      <created>1656955415668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656955415668</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created program to find the sum of triplets is zero">
+      <created>1656987573824</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656987573824</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created program to find the sum of triplets is zero">
+      <created>1656987609365</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656987609365</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added method to calculate distance">
+      <created>1657010763906</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657010763906</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Created program to find roots of quadratic equation">
+      <created>1657011913657</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657011913657</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Created program to find windchill">
+      <created>1657012102163</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657012102163</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +269,12 @@
     <MESSAGE value="Added program of Harmonic number" />
     <MESSAGE value="Removed unnecessary comments" />
     <MESSAGE value="Corrected leap year logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected leap year logic" />
+    <MESSAGE value="Added program to print 2D Array" />
+    <MESSAGE value="Created program to find the sum of triplets is zero" />
+    <MESSAGE value="Added method to calculate distance" />
+    <MESSAGE value="Created program to find roots of quadratic equation" />
+    <MESSAGE value="Created program to find windchill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created program to find windchill" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,7 +284,17 @@
           <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Com/bridgelabz/basic/functional/WindChill.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Basic_Core_Program$WindChill.ic" NAME="WindChill Coverage Results" MODIFIED="1657007739352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Com.bridgelabz.basic.functional.*</FILTER>
+    </SUITE>
   </component>
 </project>
