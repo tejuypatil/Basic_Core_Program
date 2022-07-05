@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Created program to find roots of quadratic equation">
-      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/functional/WindChill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basics/PatternProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RFPSample169.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RFPSample169.iml" afterDir="false" />
-    </list>
+    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Created program to find windchill" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657011913657</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Created program to find windchill">
+      <created>1657012102163</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657012102163</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +273,8 @@
     <MESSAGE value="Created program to find the sum of triplets is zero" />
     <MESSAGE value="Added method to calculate distance" />
     <MESSAGE value="Created program to find roots of quadratic equation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created program to find roots of quadratic equation" />
+    <MESSAGE value="Created program to find windchill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created program to find windchill" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
