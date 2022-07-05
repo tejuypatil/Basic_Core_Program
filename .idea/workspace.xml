@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Corrected leap year logic">
-      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/functional/TwoDArray.java" afterDir="false" />
+    <list default="true" id="170c049b-2507-4829-a937-531efe55cd3d" name="Changes" comment="Created program to find the sum of triplets is zero">
+      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/functional/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Com/bridgelabz/basic/functional/SumOfInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +46,13 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TwoDArray">
-    <configuration name="FlipCoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.FlipCoin" />
+  <component name="RunManager" selected="Application.SumOfInt">
+    <configuration name="Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.functional.Distance" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="PATTERN" value="Com.bridgelabz.basic.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.HarmonicNumber" />
+    <configuration name="FlipCoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.FlipCoin" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuotientRemainder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.core.QuotientRemainder" />
+    <configuration name="SumOfInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.bridgelabz.basic.functional.SumOfInt" />
       <module name="RFPSample169" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.bridgelabz.basic.core.*" />
+          <option name="PATTERN" value="Com.bridgelabz.basic.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfInt" />
+        <item itemvalue="Application.Distance" />
         <item itemvalue="Application.TwoDArray" />
         <item itemvalue="Application.LeapYear" />
         <item itemvalue="Application.FlipCoin" />
-        <item itemvalue="Application.HarmonicNumber" />
-        <item itemvalue="Application.QuotientRemainder" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656932924647</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added program to print 2D Array">
+      <created>1656955415668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656955415668</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +218,9 @@
     <MESSAGE value="Added program of Harmonic number" />
     <MESSAGE value="Removed unnecessary comments" />
     <MESSAGE value="Corrected leap year logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected leap year logic" />
+    <MESSAGE value="Added program to print 2D Array" />
+    <MESSAGE value="Created program to find the sum of triplets is zero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created program to find the sum of triplets is zero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
